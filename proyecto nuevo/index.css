@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+}
+p{
+    margin-top: 10px;
+    font-size: 1em;
+    margin-right: 100px;
+}
+samp{
+    margin-left: 30px;
+}
+h1{
+    text-align: end;
+    font-size: 40px;
+}
+a{
+    font-size: 1em;
+    color: burlywood;
+    text-decoration: none;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+}
+.fracmento-imagen{
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+    height: 250px;
+    width: 250px;
+}
+#seccion-1{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#seccion-3{
+    padding-top: 10px;
+
+}
+#subtitulo-feid2{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#contenedor-imagenes-seccion2{
+    display: flex;
+    justify-content: space-around;
+}

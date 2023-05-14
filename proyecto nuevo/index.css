@@ -8,7 +8,7 @@ main{
     grid-template-columns: 40% 60%;
     grid-template-rows: 60% 40%;
 }
-p{
+#texto{
     margin-top: 10px;
     font-size: 1em;
     margin-right: 100px;
@@ -18,12 +18,17 @@ samp{
 }
 h1{
     text-align: end;
-    font-size: 40px;
+    font-size: 60px;
+    color: chartreuse;
 }
 a{
-    font-size: 1em;
+    font-size: 20px;
     color: burlywood;
     text-decoration: none;
+}
+h2{
+    color: chartreuse;
+    font-size: 40px;
 }
 .body{
     height: 100vh;
@@ -52,4 +57,12 @@ img:hover{
 #contenedor-imagenes-seccion2{
     display: flex;
     justify-content: space-around;
+}
+#CONOCE{
+        color: chartreuse;
+        font-size: 50;    
+}
+#TRAYECTORIA{
+    font-size: 40px;
+    color: chartreuse;
 }
